@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+
+
+.nav {
+	width: 100%;
+	height: 600px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/premium-photo/merry-christmas-hd-red-wallpaper-beautiful-artwork-seasonal-illustration-copy-space-background_974732-1464.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #EDEDED;
+}
+
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.list ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.list ul li {
+    margin-left: 20px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.list ul li a:hover {
+    color: #c12409;
+}
+
+/* Button Section */
+.button {
+    margin-left: auto; /* Push the button to the far right */
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #cb290d;
+    color: #EDEDED;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button button:hover {
+    background-color: #6a1406;
+    transform: scale(1.05);
+}
+
+
+.xmas-msg{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #EDEDED;
+    line-height: 20px;
+    
+}
+
+.xmas-msg p{
+    padding-top: 15px;
+}
+
+/* General Button Styling */
+.register button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EDEDED;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Xmas1 Button Styling */
+.xmas1 button {
+    background-color: #810b0b; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.xmas1 button:hover {
+    background-color: #a41010; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Xmas2 Button Styling */
+.xmas2 button {
+    background-color: black; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.xmas2 button:hover {
+    background-color: rgb(41, 3, 3); 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Layout for Register Section */
+.register {
+    display: flex;
+    gap: 20px; 
+    margin-top: 40px;
+    margin-left: 10px;
+}
